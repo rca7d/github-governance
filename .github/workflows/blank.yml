@@ -34,3 +34,9 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+  job_2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run script
+        run: echo Hellow from Job 2!
+        
