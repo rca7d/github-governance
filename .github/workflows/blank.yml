@@ -39,4 +39,7 @@ jobs:
     steps:
       - name: Run script
         run: echo Hellow from Job 2!
+
+      - name: Fail script
+        run: exit 1
         
